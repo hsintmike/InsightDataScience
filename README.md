@@ -26,7 +26,9 @@ Python version 2.7  ([https://www.python.org/](https://www.python.org/))
 ### Workflow and Methods
 
 The data showing here are just example to illustrate my algorithm
-
+----
+<img src="images/Workflow.PNG">
+----
 
 **Step 1** 
 
@@ -43,7 +45,7 @@ Now we have data sets that are within 60 seconds time window. Extract the hashta
 
 **Function 2** 
 
-To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value.Note: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow. If they are not, then do the average degree calculation (Function 3)
+To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value. **Note**: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow. If they are not, then do the average degree calculation 
 
 **Function 3** 
 
