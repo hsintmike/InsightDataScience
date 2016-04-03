@@ -5,14 +5,11 @@
 
 This is insight data science coding challenge. In this challenge, it requires you to:
 
-Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.  You will thus be calculating the average degree over a 60-second sliding window.
+"Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.  You will thus be calculating the average degree over a 60-second sliding window."
 
 The detail challenge instruction can see [here][1]
 
-I wrote it in language Python to slove this challenge. The following will show the workflow and methods I used to slove this problem. To execute it, you can simply run `./run.sh` from the command line.
-
-### Workflow and Methods
-
+I wrote it in Python language to slove this challenge. The following will show the workflow and methods I used to slove this problem. To execute it, you can simply run `./run.sh` from the command line.
 
 
 ### Software dependencies
@@ -26,6 +23,7 @@ Python version 2.7  ([https://www.python.org/](https://www.python.org/))
 - NumPy 1.10.4
 - pandas 0.18.0
 
+### Workflow and Methods
 
 
 
