@@ -25,12 +25,23 @@ Python version 2.7  ([https://www.python.org/](https://www.python.org/))
 
 ### Workflow and Methods
 
+The data showing here are just example to illustrate my algorithm
 
 
+**Step 1**
+Read one tweet from the input file each time, convert the data form to the data structure that only contains the hashtags and created time information, shown as in the diagram, and store it. 
+
+**Function 1**
+Find the maximum time and the minimum time from that data sets, remove the minimum time data if max_time - min_time > 60 seconds, until max_time - min_time <= 60 seconds. 
+
+ **Step 2**
+Now we have data sets that are within 60 seconds time window. Extract the hashtags from there and do the average degree calculation.
 
 
+**Function 2**
+To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value.(Note: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow). If they are not, then do the average degree calculation (Function 3)
 
-
+**Function 3**
 
 
 
