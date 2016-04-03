@@ -12,6 +12,7 @@ The detail challenge instruction can see [here][1]
 I wrote it in Python language to slove this challenge. The following will show the workflow and methods I used to slove this problem. To execute it, you can simply run `./run.sh` from the command line.
 
 
+
 ### Software dependencies
 
 **All the required software is open source.**  The implementation was done using the following language and packages.
@@ -22,6 +23,8 @@ Python version 2.7  ([https://www.python.org/](https://www.python.org/))
 **Python packages needed:**
 - NumPy 1.10.4
 - pandas 0.18.0
+
+
 
 ### Workflow and Methods
 
@@ -51,7 +54,11 @@ Now we have data sets that are within 60 seconds time window. Extract the hashta
 To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value. **Note**: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow. If they are not, then do the average degree calculation 
 
 **Function 3** 
+---
 
+<img src="images/Matrix example.PNG">
+
+----
 
 
 
