@@ -34,7 +34,7 @@ Read one tweet from the input file each time, convert the data form to the data 
 
 **Function 1** 
 
-Find the maximum time and the minimum time from that data sets, remove the minimum time data if max_time - min_time > 60 seconds, until max_time - min_time <= 60 seconds. 
+Find the maximum and the minimum time from that data sets, remove the minimum time data if `max_time - min_time` > 60 seconds, until `max_time - min_time` <= 60 seconds. 
 
  **Step 2** 
 
@@ -43,7 +43,7 @@ Now we have data sets that are within 60 seconds time window. Extract the hashta
 
 **Function 2** 
 
-To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value.(Note: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow). If they are not, then do the average degree calculation (Function 3)
+To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value.Note: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow. If they are not, then do the average degree calculation (Function 3)
 
 **Function 3** 
 
