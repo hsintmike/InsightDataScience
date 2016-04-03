@@ -51,7 +51,9 @@ Now we have data sets that are within 60 seconds time window. Extract the hashta
 
 **Function 2** 
 
-To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value. **Note**: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow. If they are not, then do the average degree calculation 
+To make the program more efficient, if the new hashtags are same as previous hashtags then return the same average degree value. If they are not, then do the average degree calculation 
+**Note**: the hashtags mentioned here are the stored hashtags that within 60 seconds timewindow. 
+
 
 **Function 3** 
 ---
