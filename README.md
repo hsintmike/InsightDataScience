@@ -44,7 +44,7 @@ Read one tweet from the input file each time, convert the data to the data struc
 
 **Function 1** 
 
-Find the maximum and the minimum time from that data sets, remove the minimum time data if `max_time - min_time` > 60 seconds, until `max_time - min_time` <= 60 seconds. (Inclusive)
+Find the maximum and the minimum time from that data sets, remove the minimum time data if `max_time - min_time` > 60 seconds, loop over until `max_time - min_time` <= 60 seconds. (Inclusive)
 
  **Step 2** 
 
