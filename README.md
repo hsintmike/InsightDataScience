@@ -1,4 +1,4 @@
-## InsightDataScience Coding Challenge Final
+## Insight Data Science Coding Challenge Final
 ***Hsin-Ju (Michael), Tung - ChemE Grad at University of Washington***
 
                        
@@ -62,7 +62,7 @@ To make the program more efficient, if the new hashtags are same as previous has
 
 <img src="images/Matrix example.PNG">
 
-I use the matrix to calculate the average degree of hashtags graph. Any two hashtags form the edges will assign 1 in their corresponding position in the matrix. If they already form the edges before, that position will still be 1. For example, in this case, the edges in the graph  are:
+I use the matrix to calculate the average degree of hashtags graph. Any two hashtags form the edges will assign 1 in their corresponding position in the matrix. If they already form the edges before, that position will still be 1, shown as above. For example, in this case, the edges in the graph  are:
 
 ```
 #A <-> #B
