@@ -40,11 +40,11 @@ The data showing here are just example to illustrate my algorithm
 
 **Step 1** 
 
-Read one tweet from the input file each time, convert the data form to the data structure that only contains the hashtags and created time information, shown as in the diagram, and store it. 
+Read one tweet from the input file each time, convert the data to the data structure that only contains the hashtags and created time information, shown as in the diagram, and store it. 
 
 **Function 1** 
 
-Find the maximum and the minimum time from that data sets, remove the minimum time data if `max_time - min_time` > 60 seconds, until `max_time - min_time` <= 60 seconds. 
+Find the maximum and the minimum time from that data sets, remove the minimum time data if `max_time - min_time` > 60 seconds, until `max_time - min_time` <= 60 seconds. (Inclusive)
 
  **Step 2** 
 
@@ -88,9 +88,9 @@ Average Degree = (2+3+3+1+3+1+1) / 7 = 2.00
 
 
 **Clarification**
-- If the tweet has empty hashtag, it will be not accounted for this matrix calculation. 
-- If the tweet has single hashtag and did not connect to any other hashtags in that 60 seconds time window, it will be not accounted for this matrix calculation.
-- If all tweets are empty hashtag **or** all are single hashtag in that 60 seconds time window, then average degree will return 0.
+- If the hashtag is empty for that tweet, it will be not accounted for this matrix calculation. 
+- If the tweet has only one hashtag, it will be not accounted for this matrix calculation.
+- If all tweets are empty hashtag **or** all are one hashtag in that 60 seconds time window, then average degree will return 0.
 
 
 
