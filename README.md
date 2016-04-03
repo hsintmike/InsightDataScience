@@ -1,7 +1,7 @@
 ### InsightDataScience Coding Challenge Final
 ***Hsin-Ju (Michael), Tung - ChemE Grad at University of Washingotn***
 
-## Description
+### Description
 
 This is insight data science coding challenge. In this challenge, it requires you to:
 
