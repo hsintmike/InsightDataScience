@@ -1,5 +1,6 @@
-### InsightDataScience Coding Challenge Final
+## InsightDataScience Coding Challenge Final
 ***Hsin-Ju (Michael), Tung - ChemE Grad at University of Washingotn***
+***                        - Data analysis for biological system***
 
 ### Description
 
@@ -60,7 +61,7 @@ To make the program more efficient, if the new hashtags are same as previous has
 
 <img src="images/Matrix example.PNG">
 
-I use the matrix to calculate the average degree of hashtags graph. Any two hashtags form the edges will assign 1 in their correspond position in the matrix. If they already form the edges before, that position will still be 1. For example, in this case, the edges in the graph  are:
+I use the matrix to calculate the average degree of hashtags graph. Any two hashtags form the edges will assign 1 in their corresponding position in the matrix. If they already form the edges before, that position will still be 1. For example, in this case, the edges in the graph  are:
 
 ```
 #A <-> #B
@@ -78,15 +79,17 @@ I use the matrix to calculate the average degree of hashtags graph. Any two hash
 #F <-> #G
 
 ```
-Then we can fill half diagonal matrix, the other half will be symmetric. Since A connect to B, B also connect to A. The edges counts of each node are the sum of that column. 
+Then we can fill half matrix, the other half will be symmetric. Since A connect to B, B also connect to A. The edges counts of each node are the sum of that column. 
 
 Average Degree = (2+3+3+1+3+1+1) / 7 = 2.00
 
 
+
+
 **Clarification**
 - If the tweet has empty hashtag, it will be not accounted for this matrix calculation. 
-- If the tweet has single hashtag and did not connect to any other hashtags in this 60 seconds time window, it will be not accounted for this matrix calculation.
-- If all tweets are empty hashtag **or** all are single hashtag in the 60 seconds time window, then average degree will return 0.
+- If the tweet has single hashtag and did not connect to any other hashtags in that 60 seconds time window, it will be not accounted for this matrix calculation.
+- If all tweets are empty hashtag **or** all are single hashtag in that 60 seconds time window, then average degree will return 0.
 
 
 
