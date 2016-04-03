@@ -1,7 +1,7 @@
 """
-Python script for caculating average degree in Twiiter hashtags graph for the last 60 seconds
-It reads each input twitter and output the average degree simulaneously
-Add --print argument to print the vaules on the screen
+Python script for calculating average degree in Twiiter hashtags graph for the last 60 seconds
+It reads each input twitter and outputs the average degree simulaneously
+Add --print argument to print out the vaules on the screen
 It also prints out the total tweets and running time at the end
 """
 
@@ -79,13 +79,13 @@ def count(df, ref, prvd):
     Parameters
     -----------
     df : pandas dataframe
-    ref : list of tuples that contains exist hashtags within time window
-    prvd : int, the average degree of previous input tweet
+    ref : list of tuples that contains hashtags within previous time window
+    prvd : int, the average degree of previous time window
 
     Returns
     -------
     average degree: int
-    list of tuples: that contains hashtags upto this tweet
+    list of tuples: that contains updated hashtags within current time window
 
     """
     gw = []
