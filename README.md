@@ -78,11 +78,15 @@ I use the matrix to calculate the average degree of hashtags graph. Any two hash
 #F <-> #G
 
 ```
-Then we can fill half diagonal matrix, the other half will be symmetric. Since A connect to B, B also connect to A. The edges count of each node are the sum of that column. 
+Then we can fill half diagonal matrix, the other half will be symmetric. Since A connect to B, B also connect to A. The edges counts of each node are the sum of that column. 
 
 Average Degree = (2+3+3+1+3+1+1) / 7 = 2.00
 
 
+**Clarification**
+- If the tweet has empty hashtag, it will be not accounted for this matrix calculation. 
+- If the tweet has single hashtag and did not connect to any other hashtags in this 60 seconds time window, it will be not accounted for this matrix calculation.
+- If all tweets are empty hashtag **or** all are single hashtag in this 60 seconds time window, then average degree will retrun 0.
 
 
 
