@@ -9,7 +9,7 @@ Calculate the average degree of a vertex in a Twitter hashtag graph for the last
 
 The detail challenge description can see [here][1]
 
-[1] https://github.com/hsintmike/InsightDataScience/blob/master/instruction.md 
+[1]: https://github.com/hsintmike/InsightDataScience/blob/master/instruction.md [here]
 
 
 
