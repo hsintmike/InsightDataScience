@@ -60,6 +60,27 @@ To make the program more efficient, if the new hashtags are same as previous has
 
 <img src="images/Matrix example.PNG">
 
+I use the matrix to calculate the average degree of hashtags graph. Any two hashtags form the edges will assign 1 in their correspond position in the matrix. If they already form the edges before, that position will still be 1. For example, in this case, the edges in the graph  are:
+
+```
+#A <-> #B
+
+#A <-> #B
+#B <-> #C
+#C <-> #A
+
+#B <-> #C
+#C <-> #E
+#E <-> #B
+
+#E <-> #D
+
+#F <-> #G
+
+```
+Then we can fill half diagonal matrix, the other half will be symmetric. Since A connect to B, B also connect to A. The edges count of each node are the sum of that column. 
+
+Average Degree = (2+3+3+1+3+1+1) / 7 = 2.00
 
 
 
