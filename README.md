@@ -86,12 +86,37 @@ Average Degree = (2+3+3+1+3+1+1) / 7 = 2.00
 **Clarification**
 - If the tweet has empty hashtag, it will be not accounted for this matrix calculation. 
 - If the tweet has single hashtag and did not connect to any other hashtags in this 60 seconds time window, it will be not accounted for this matrix calculation.
-- If all tweets are empty hashtag **or** all are single hashtag in this 60 seconds time window, then average degree will retrun 0.
+- If all tweets are empty hashtag **or** all are single hashtag in the 60 seconds time window, then average degree will return 0.
+
+
+
+### Directory structure
+
+
+	├── README.md 
+	├── run.sh
+	├── src
+	│   └── average_degree.py
+	├── tweet_input
+	│   └── tweets.txt
+	│   └── tweets_2.txt
+	├── tweet_output
+	│   └── output.txt
+	│   └── output_2.txt
+	└── insight_testsuite
+	    ├── run_tests.sh
+	    └── tests
+	        └── test-2-tweets-all-distinct
+	        │   ├── tweet_input
+	        │   │   └── tweets.txt
+	        │   └── tweet_output
+	        │       └── output.txt
+	        └── your-own-test
+	            ├── tweet_input
+	            │   └── tweets.txt
+	            └── tweet_output
+	                └── output.txt
 
 
 
 [1]: https://github.com/hsintmike/InsightDataScience/blob/master/instruction.md "here"
-
-
-
-
