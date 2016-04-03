@@ -26,10 +26,10 @@ if len(sys.argv) == 4:
     fileoutput = sys.argv[2]
     printornot = sys.argv[3]
 
-
+#Function 1
 def timewindow(df):
     """
-    Function to decide input tweets are within 60 seconds time window
+    Function to decide input tweets are within 60 seconds time window or not
 
     Parameters
     -----------
@@ -69,7 +69,7 @@ def timewindow(df):
 
     return df
 
-
+#Function 2
 def count(df, ref, prvd):
     """
     Function that return the average degree from a "60 seconds time window" pandas dataframe
@@ -103,7 +103,7 @@ def count(df, ref, prvd):
         
     return avedegree, gwt
 
-
+#Function 3
 def gy(lst):
     """
     The algorithm that calculate the average degree of tweets hashtags graph
@@ -167,7 +167,7 @@ with open(fileinput, 'r') as f:
     
     for line in f:          # Read line
         
-        if line.startswith('{"created_at":'):
+        if line.startswith('{"created_at":'):    #Skip limited data
             data = json.loads(line)
             created_at = [data['created_at']]
             hashtag = [data['entities']["hashtags"]]
