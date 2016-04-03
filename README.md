@@ -26,8 +26,11 @@ Python version 2.7  ([https://www.python.org/](https://www.python.org/))
 ### Workflow and Methods
 
 The data showing here are just example to illustrate my algorithm
+
 ----
+
 <img src="images/Workflow.PNG">
+
 ----
 
 **Step 1** 
