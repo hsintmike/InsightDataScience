@@ -2,6 +2,16 @@
 ***Hsin-Ju (Michael), Tung - ChemE Grad at University of Washington***
 
                        
+----
+
+<img src="images/simple_path_new1.PNG">
+
+----
+----
+
+<img src="images/simple_path2.eps">
+
+----
 
 ### Description
 

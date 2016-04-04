@@ -91,9 +91,20 @@ def count(df, ref, prvd):
     gw = []
     for i in range(0, len(df)):
         lst = df['hashtags'][i]
-        if len(lst) != 0:
+        if len(lst) > 0:
             gw.append(lst)
-    gwt = [tuple(x) for x in gw]
+    
+    # Function to determine the lists in the list on equal
+    def checkEqual(iterator):
+        try:
+            iterator = iter(iterator)
+            first = next(iterator)
+            return all(first == rest for rest in iterator)
+        except StopIteration:
+            return True
+
+
+    gwt = [tuple(x) for x in gw if checkEqual(x) == False]   # Exclude the tweets that have same hashtags
     
     if set(gwt) == set(ref):
         
