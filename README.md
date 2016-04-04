@@ -4,12 +4,7 @@
                        
 ----
 
-<img src="images/simple_path_new1.PNG">
-
-----
-----
-
-<img src="images/simple_path2.eps">
+<img src="images/simple_path_new1.png">
 
 ----
 
