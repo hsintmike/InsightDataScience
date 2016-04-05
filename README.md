@@ -16,7 +16,8 @@ I wrote it in Python language to slove this challenge. The following will show t
 
 ### Tweeter hashtag graph 
 
-An example network graph from a random 60 secondes time window hashtags from `weets.txt`
+An example network graph from a random 60 secondes time window hashtags from `tweets.txt`
+
 ----
 
 <img src="images/Example hashtag graph.png">
