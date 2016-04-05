@@ -33,6 +33,8 @@ Python version 2.7  ([https://www.python.org/](https://www.python.org/))
 **Python packages needed:**
 - NumPy 1.10.4
 - pandas 0.18.0
+- matplotlib 1.5.1 (For plotting)
+- Networkx 1.11 (To generate network plot)
 
 
 
@@ -101,12 +103,22 @@ Average Degree = (2+3+3+1+3+1+1) / 7 = 2.00
 - If all tweets are empty hashtag **or** all are one hashtag in that 60 seconds time window, then average degree will return 0.
 
 
+**Plotting**
+- Use python package **Networkx** to generate the network plot.
+- The script `network_plot.py` reads the data after step2 (above) and plot the graph.
+- The plotting setting should be manually changed. 
+
 
 ### Directory structure
 
 
 	├── README.md 
 	├── run.sh
+	├── images
+	│   └── network_plot.py
+	│   └── Workflow.PNG
+	│   └── Matrix example.PNG
+	│   └── Example hashtag graph.png
 	├── src
 	│   └── average_degree.py
 	├── tweet_input
