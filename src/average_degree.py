@@ -95,7 +95,7 @@ def count(df, ref, prvd):
             gw.append(lst)
     
 
-    gwt = [tuple(x) for x in gw]   # Exclude the tweets that have same hashtags
+    gwt = [tuple(x) for x in gw]   
     
     if set(gwt) == set(ref):
         
